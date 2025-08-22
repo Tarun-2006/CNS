@@ -46,6 +46,7 @@ void caesarCipher(char *text, int shift)
 int main() 
 {
     char text[] = "TARUN S";
+    printf("Plain Text: %s \n",text);
     caesarCipher(text, 3);
     printf("Encrypted Message: %s\n", text);
     caesarCipher(text,-3);
@@ -60,7 +61,9 @@ int main()
 ## OUTPUT :-
 
 
-<img width="1508" height="773" alt="image" src="https://github.com/user-attachments/assets/c52135e9-36a8-4fe3-8d28-6778a7b15a78" />
+
+<img width="1176" height="793" alt="image" src="https://github.com/user-attachments/assets/2a0cfc17-04ac-4f9d-956b-112c0c3124c3" />
+
 
 
 ## RESULT:
